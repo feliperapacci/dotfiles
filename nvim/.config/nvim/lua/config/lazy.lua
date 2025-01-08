@@ -34,5 +34,7 @@ require("lazy").setup({
 
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 
+    {'ThePrimeagen/vim-be-good'},
+
   },
 })
