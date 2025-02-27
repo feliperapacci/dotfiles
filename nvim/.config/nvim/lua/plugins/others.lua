@@ -10,6 +10,12 @@ return {
     ft = { "markdown" },
   }, --markdown viewer
 
+  {
+    'tribela/transparent.nvim',
+    config = false,
+    auto = false,
+  },
+
   {'rstacruz/vim-closer'}, -- closes brackets
 }
 
